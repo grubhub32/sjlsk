@@ -1,4 +1,4 @@
-require('dotenv').config();
+const dotenv = require('dotenv');
 const { Client, IntentsBitField } = require('discord.js');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
