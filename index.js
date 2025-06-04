@@ -4,7 +4,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 // Replace these with your actual values
 const GEMINI_API_KEY = 'AIzaSyAAh6wcuvNvwqIaol4M1Bws5IRYfBBrXJo';
 const CHANNEL_ID = '1379589929474195570';
-const TOKEN = 'MTM3OTYyODQ0NTcyMTU1OTIzMQ.GJE0Eu.QNsnZbEA_jzdF_kYgZw3cJpRmWt0vTO4e4ViY4';
+const TOKEN = process.env.DISCORD_TOKEN;
 
 const client = new Client({
   intents: [
